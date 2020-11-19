@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+        <h1 class="text-center">Nos produits phares</h1>
+
+        <div class="row">
+            {% for i in 1..3 %}
+                <div class="col">
+                    <div class="card">
+                        <img src="https://picsum.photos/200/200" class="img-fluid" alt="test">
+                        <div class="card-body">
+                            <h4 class="card-title">Superbe épée</h4>
+                            <p class="card-text">lorem ipsum</p>
+                            <a href="#" class="btn btn-primary btn-sm">Détails</a>
+                            <a href="#" class="btn btn-success">Ajouter</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <hr>
+        <h2 class="text-center mt-3">Un service irrépprochable</h2>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aliquid, cum cumque, dicta doloremque doloribus ea eius fugiat impedit ipsum iste laboriosam magnam perferendis provident quam quas rerum, sint.</span><span>Autem culpa deleniti eveniet ipsa iste nulla omnis, quis quos reiciendis rem saepe unde. Aliquam amet, dicta id modi mollitia natus neque numquam pariatur porro quas quod ratione saepe temporibus.</span><span>Deleniti ducimus ex, ipsa iste natus, pariatur porro quaerat quas similique sit soluta voluptatem! Asperiores, ducimus, molestias? Ea excepturi illo, officia quisquam repudiandae temporibus veritatis? Ab eaque eveniet inventore nam.</span><span>A amet aut delectus deserunt eius error esse est eum explicabo harum officia omnis praesentium quaerat, quis recusandae, velit voluptas voluptate voluptates. Aliquam aperiam facilis incidunt, laboriosam nobis obcaecati quam?</span><span>Alias architecto cum dicta error expedita laborum laudantium modi nemo obcaecati odio, quae quaerat qui, sapiente sed sint temporibus ut voluptas. Aliquam cupiditate deleniti eaque, excepturi ipsam maxime nesciunt temporibus.</span>
+        </p>
+        <div class="row">
+            {% include "shared/_assurance.html.twig" with {
+                'color': 'primary',
+                'icone': 'fas fa-truck',
+                'text': 'lorem ipsum bla bla bla'
+            } %}
+            {% include "shared/_assurance.html.twig" with {
+                'color': 'warning',
+                'icone': 'fas fa-check',
+                'text': 'lorem ipsum bla bla bla'
+            } %}
+            {% include "shared/_assurance.html.twig" with {
+                'color': 'success',
+                'icone': 'fas fa-lock',
+                'text': 'lorem ipsum bla bla bla'
+            } %}
+        </div>
+{% endblock %}

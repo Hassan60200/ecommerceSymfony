@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc1b8f56-4013-4a46-88b5-e72d2826bfbc" name="Default Changelist" comment="" />
+    <list default="true" id="cc1b8f56-4013-4a46-88b5-e72d2826bfbc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/shared/_navbar.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/shared/assurance.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -117,6 +127,8 @@
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-pack" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kSyUZmANIUlIQ5wqo5HaZb9nbG" />
@@ -144,7 +156,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605708308870</updated>
-      <workItem from="1605708311970" duration="1437000" />
+      <workItem from="1605708311970" duration="2202000" />
+      <workItem from="1605716900069" duration="8508000" />
+      <workItem from="1605803332677" duration="1158000" />
+      <workItem from="1605813419171" duration="1739000" />
     </task>
     <servers />
   </component>
