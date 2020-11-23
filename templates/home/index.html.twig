@@ -6,13 +6,14 @@
         <h1 class="text-center">Nos produits phares</h1>
 
         <div class="row">
-            {% for i in 1..3 %}
+            {% for product in products%}
                 <div class="col">
                     <div class="card">
-                        <img src="https://picsum.photos/200/200" class="img-fluid" alt="test">
+                        <img src="{{ product.picture }}" class="img-fluid" alt="test">
                         <div class="card-body">
-                            <h4 class="card-title">Superbe épée</h4>
-                            <p class="card-text">lorem ipsum</p>
+                            <h4 class="card-title">{{ product.name }} ({{ product.price / 100 }} €)</h4>
+                            <span class="badge badge-danger p-2 m-2">{{ product.category.name }}</span>
+                            <p class="card-text">{{ product.shortDescription }}</p>
                             <a href="#" class="btn btn-primary btn-sm">Détails</a>
                             <a href="#" class="btn btn-success">Ajouter</a>
                         </div>
