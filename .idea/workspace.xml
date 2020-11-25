@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1b8f56-4013-4a46-88b5-e72d2826bfbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/product/create.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/edit.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/create.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +165,7 @@
       <workItem from="1605864607142" duration="1976000" />
       <workItem from="1605866743407" duration="8600000" />
       <workItem from="1606142793005" duration="3437000" />
-      <workItem from="1606219369714" duration="9585000" />
+      <workItem from="1606219369714" duration="19007000" />
     </task>
     <servers />
   </component>
@@ -171,6 +173,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="693" y="277" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606314506380">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="693" y="277" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.985@0.27.1920.985" timestamp="1606314506380" />
     <state x="743" y="277" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605866216959">
       <screen x="0" y="27" width="1920" height="985" />
     </state>

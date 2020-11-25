@@ -1,13 +1,11 @@
 {% extends 'base.html.twig' %}
 
-
 {% block title %}
-    Création d'un produit
+    Édition de {{ product.name }}
 {% endblock %}
 
 {% block body %}
-
-    <h1 class="text-center">Nouveau produit</h1>
+    <h1 class="text-center">Éditer le produit {{ product.name }}</h1>
 
     {{ form_start(formView) }}
 
@@ -29,5 +27,4 @@
     </button>
 
     {{ form_end(formView) }}
-
 {% endblock %}
