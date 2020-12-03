@@ -89,9 +89,7 @@ class ProductController extends AbstractController
 
         $product = $productRepo->find($id);
 
-        $form = $this->createForm(ProductType::class, $product, [
-            'validation_groups' => ["Default", "with-price"]
-        ]);
+        $form = $this->createForm(ProductType::class, $product);
 
         $form->handleRequest($request);
 
