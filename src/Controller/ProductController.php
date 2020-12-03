@@ -13,6 +13,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\String\Slugger\SluggerInterface;
+use Symfony\Component\Validator\Validator\ValidatorInterface;
 
 class ProductController extends AbstractController
 {
@@ -84,11 +85,13 @@ class ProductController extends AbstractController
     /**
      * @Route("/admin/product/{id}/edit", name="product_edit")
      */
-    public function edit(ProductRepository $productRepo, $id, Request $request, EntityManagerInterface $em){
+    public function edit(ProductRepository $productRepo, $id, Request $request, EntityManagerInterface $em, ValidatorInterface $validator){
 
         $product = $productRepo->find($id);
 
-        $form = $this->createForm(ProductType::class, $product);
+        $form = $this->createForm(ProductType::class, $product, [
+            'validation_groups' => ["Default", "with-price"]
+        ]);
 
         $form->handleRequest($request);
 
