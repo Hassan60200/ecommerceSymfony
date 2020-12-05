@@ -63,7 +63,7 @@ class LoginFormAuthenticator extends AbstractGuardAuthenticator
 
     public function start(Request $request, AuthenticationException $authException = null)
     {
-        // todo
+        return new RedirectResponse('/login');
     }
 
     public function supportsRememberMe()

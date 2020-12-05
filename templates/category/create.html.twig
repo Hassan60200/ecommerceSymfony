@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Connexion !{% endblock %}
+
+{% block body %}
+        <h1 class="text-center">Création d'une catégorie</h1>
+
+        {{ form_start(formView) }}
+
+        {{ form_widget(formView) }}
+
+        <button type="submit" class="btn btn-success"><i class="fas fa-save"> Enrengistrer</i></button>
+
+        {{ form_end(formView) }}
+{% endblock %}
