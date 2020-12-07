@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1b8f56-4013-4a46-88b5-e72d2826bfbc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Cart/CartItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cart/CartService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/_product_card.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/category.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/category.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shared/_navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shared/_navbar.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +139,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kSyUZmANIUlIQ5wqo5HaZb9nbG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -171,33 +178,11 @@
       <workItem from="1606758513941" duration="3233000" />
       <workItem from="1607002050232" duration="12245000" />
       <workItem from="1607175185811" duration="4482000" />
-      <workItem from="1607335398318" duration="1922000" />
+      <workItem from="1607335398318" duration="14237000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="693" y="277" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606314506380">
-      <screen x="0" y="27" width="1920" height="985" />
-    </state>
-    <state x="693" y="277" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.985@0.27.1920.985" timestamp="1606314506380" />
-    <state x="743" y="277" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605866216959">
-      <screen x="0" y="27" width="1920" height="985" />
-    </state>
-    <state x="743" y="277" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.985@0.27.1920.985" timestamp="1605866216959" />
-    <state x="753" y="444" width="404" height="158" key="NewPhpFileDialog" timestamp="1606402318134">
-      <screen x="0" y="27" width="1920" height="985" />
-    </state>
-    <state x="753" y="444" width="404" height="158" key="NewPhpFileDialog/0.27.1920.985@0.27.1920.985" timestamp="1606402318134" />
-    <state x="624" y="235" key="run.anything.popup" timestamp="1606232747499">
-      <screen x="0" y="27" width="1920" height="985" />
-    </state>
-    <state x="624" y="235" key="run.anything.popup/0.27.1920.985@0.27.1920.985" timestamp="1606232747499" />
-    <state x="623" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1606399711991">
-      <screen x="0" y="27" width="1920" height="985" />
-    </state>
-    <state x="623" y="242" width="672" height="678" key="search.everywhere.popup/0.27.1920.985@0.27.1920.985" timestamp="1606399711991" />
   </component>
 </project>
