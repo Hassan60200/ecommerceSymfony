@@ -4,46 +4,70 @@
 
 {% block body %}
     {% if items | length > 0 %}
-    <h1 class="text-center">Votre panier</h1>
-    <table class="table">
-        <thead>
-        <tr>
-            <th>Produit</th>
-            <th>Prix</th>
-            <th>Quantité</th>
-            <th>Total</th>
-            <th></th>
-        </tr>
-        </thead>
-        <tbody>
-        {% for item in items %}
+        <h1 class="text-center">Votre panier</h1>
+        <table class="table">
+            <thead>
             <tr>
-              <td>{{ item.product.name }}</td>
-                <td>{{ item.product.price }}</td>
-                <td>
-                    <a href="{{ path('cart_add', {'id': item.product.id}) }}?returnToCart=true" class="btn btn-sm btn-primary">
-                        <i class="fas fa-plus"></i>
-                    </a>
-                    {{ item.qty }}
-                    <a href="{{ path('cart_decrement', {'id': item.product.id}) }}" class="btn btn-primary btn-sm">
-                        <i class="fas fa-minus"></i>
-                    </a>
-                </td>
-                <td>{{ item.total }}</td>
-                <td>
-                    <a href="{{ path('cart_delete', {'id': item.product.id}) }}" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
-                </td>
-            </tr>   
-        {% endfor %}
-        </tbody>
-        <tfoot>
-        <tr>
-            <td colspan="3">Total :</td>
-            <td colspan="2">{{ total }}</td>
-        </tr>
-        </tfoot>
-    </table>
+                <th>Produit</th>
+                <th>Prix</th>
+                <th>Quantité</th>
+                <th>Total</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for item in items %}
+                <tr>
+                    <td>{{ item.product.name }}</td>
+                    <td>{{ item.product.price /100 }} €</td>
+                    <td>
+                        <a href="{{ path('cart_add', {'id': item.product.id}) }}?returnToCart=true"
+                           class="btn btn-sm btn-primary">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                        {{ item.qty }}
+                        <a href="{{ path('cart_decrement', {'id': item.product.id}) }}" class="btn btn-primary btn-sm">
+                            <i class="fas fa-minus"></i>
+                        </a>
+                    </td>
+                    <td>{{ item.total /100 }} €</td>
+                    <td>
+                        <a href="{{ path('cart_delete', {'id': item.product.id}) }}" class="btn btn-danger btn-sm"><i
+                                    class="fas fa-trash"></i></a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3">Total :</td>
+                <td colspan="2">{{ total /100 }} €</td>
+            </tr>
+            </tfoot>
+        </table>
+        <hr>
+        {% if app.user %}
+        <h2 class="text-center mt-4">Confirmation de la commande</h2>
+
+        {{ form_start(confirmationForm, {'action': path('purchase_confirm')}) }}
+
+        {{ form_widget(confirmationForm) }}
+
+        <button type="submit" class="btn btn-success">Valider</button>
+
+        {{ form_end(confirmationForm) }}
+        {% else %}
+<h2 class="text-center mt-5">Vous devez être connecté pour confirmer cette commande</h2>
+            <div class="row">
+                <div class="col-12 text-center mt-3">
+                    <a href="{{ path('security_login') }}" class="btn btn-success">Connexion</a>
+                    ou
+                    <a href="#">Créer un compte</a>
+                </div>
+            </div>
+            {% endif %}
+
     {% else %}
-    <h2 class="text-center text-uppercase">Le panier est vide</h2>
+        <h2 class="text-center text-uppercase">Le panier est vide</h2>
     {% endif %}
 {% endblock %}
