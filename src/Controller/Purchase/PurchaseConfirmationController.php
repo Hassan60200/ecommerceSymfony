@@ -61,10 +61,9 @@ class PurchaseConfirmationController extends AbstractController
         //8) Nous allons enrengistrer la commande avec EntityManagerInterface
         $this->em->flush();
 
-        $this->cartService->empty();
-
-        $this->addFlash('success', 'la commande a bien été enrengistrer');
-        return $this->redirectToRoute('purchase_index');
+        return $this->redirectToRoute('purchase_payment_form', [
+            'id' => $purchase->getId()
+        ]);
 
     }
 }

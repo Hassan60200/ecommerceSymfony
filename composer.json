@@ -18,6 +18,7 @@
         "mbezhanov/faker-provider-collection": "^1.2",
         "phpdocumentor/reflection-docblock": "^5.2",
         "sensio/framework-extra-bundle": "^5.6",
+        "stripe/stripe-php": "^7.66",
         "symfony/asset": "5.1.*",
         "symfony/console": "5.1.*",
         "symfony/debug-bundle": "^5.1",
