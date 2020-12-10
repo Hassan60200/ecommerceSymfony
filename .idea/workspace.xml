@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1b8f56-4013-4a46-88b5-e72d2826bfbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/payment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Purchase/PurchasePaymentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Purchase/PurchasePaymentSuccessController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stripe/StripeService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/purchase/payment.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Purchase/PurchaseConfirmationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Purchase/PurchaseConfirmationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +181,7 @@
       <workItem from="1607175185811" duration="4482000" />
       <workItem from="1607335398318" duration="19700000" />
       <workItem from="1607439108242" duration="17707000" />
-      <workItem from="1607523533604" duration="6760000" />
+      <workItem from="1607523533604" duration="10268000" />
     </task>
     <servers />
   </component>
