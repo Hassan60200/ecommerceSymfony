@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1b8f56-4013-4a46-88b5-e72d2826bfbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Doctrine/Listener/ProductSlugListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Doctrine/Listener/CategorySlugListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Event/ProductViewEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EventDispatcher/ProductViewEmailSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/emails/product_view.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/emails/purchase_success.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Purchase.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Purchase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/PurchaseItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/PurchaseItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Event/PurchaseSuccessEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Event/PurchaseSuccessEvent.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EventDispatcher/PurchaseSuccessEmailSubscriber.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EventDispatcher/PurchaseSuccessEmailSubscriber.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Purchase/PurchasePersister.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Purchase/PurchasePersister.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/purchase/payment.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/purchase/payment.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/_product_card.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/_product_card.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +197,10 @@
       <workItem from="1607335398318" duration="19700000" />
       <workItem from="1607439108242" duration="17707000" />
       <workItem from="1607523533604" duration="10900000" />
-      <workItem from="1607608805693" duration="8098000" />
+      <workItem from="1607608805693" duration="17157000" />
+      <workItem from="1607789468120" duration="1718000" />
+      <workItem from="1608109836127" duration="2074000" />
+      <workItem from="1608124068652" duration="5274000" />
     </task>
     <servers />
   </component>

@@ -64,8 +64,7 @@ class AppFixtures extends Fixture
 
         for ($c = 0; $c < 3; $c++) {
             $category = new Category();
-            $category->setName($faker->department)
-                ->setSlug(strtolower($this->slugger->slug($category->getName())));
+            $category->setName($faker->department);
 
             $manager->persist($category);
 

@@ -13,8 +13,7 @@ class PurchaseSuccessEvent extends Event
 
     public function __construct(Purchase $purchase)
     {
-        $this->purchase;
-        $purchase;
+        $this->purchase = $purchase;
     }
 
     public function getPurchase(): Purchase
