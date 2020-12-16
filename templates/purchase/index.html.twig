@@ -30,7 +30,7 @@
                      {% endfor %}
                  </ul>
             </td>
-            <td>{{ p.total / 100 }} €</td>
+            <td>{{ p.total | amount }} </td>
         </tr>
     {% endfor %}
     </tbody>
