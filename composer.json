@@ -104,5 +104,8 @@
             "allow-contrib": false,
             "require": "5.1.*"
         }
-    }
+    },
+    "compile": [
+        "php bin/console doctrine:migrations:migrate"
+    ]
 }
